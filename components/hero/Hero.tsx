@@ -64,7 +64,7 @@ const Hero = () => {
               height={1000}
               className="relative w-full h-full object-cover"
             />
-            <div className="w-full h-full absolute z-10 top-0 bg-gradient-to-t from-[#070707]/20"></div>
+            <div className="w-full h-full absolute z-10 top-0 bg-gradient-to-t from-[#070707]/100"></div>
             <div className="text-white absolute z-20 top-7 left-5 right-5 flex items-center gap-4">
               <div className="text-[22px] bg-black p-2.5 rounded-full">
                 <GiFlowerStar />

@@ -19,7 +19,7 @@ const config: Config = {
         "2xl": "1536px",
       },
       colors: {
-        primary: '#393737',
+        'primary': '#393737',
         secondary: '#646464'
       },
       fontFamily: {
@@ -32,7 +32,7 @@ const config: Config = {
         '4/4': '4 / 4',
         '3/2': '3 / 2',
         '300/270': '300 / 270',
-        '300/300': '300 / 300',
+        '300/300': '100 / 100',
 
       },
       backgroundImage: {

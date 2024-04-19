@@ -1,8 +1,15 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import { MdLunchDining } from "react-icons/md";
 import { LuMenuSquare } from "react-icons/lu";
+import LeftNavbar from "./LeftNavbar";
 
 const NavMobile = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleNavOpen = () => {
+    setIsOpen(!isOpen)
+  }
   return (
     <nav className="font-roboto">
       <div className="flex justify-between items-center p-5 bg-white border-[1px] border-gray-200 shadow-sm">
@@ -15,10 +22,11 @@ const NavMobile = () => {
             <span className="text-amber-400 orang">U</span>p
           </h3>
         </div>
-        <span className="text-[30px] text-primary hover:text-amber-400 transition-colors duration-300 ease-in-out">
+        <span className="text-[30px] text-primary hover:text-amber-400 transition-colors duration-300 ease-in-out cursor-pointer" onClick={handleNavOpen}>
           <LuMenuSquare />
         </span>
       </div>
+      <LeftNavbar isOpen={isOpen} setIsOpen={setIsOpen}/>
     </nav>
   );
 };

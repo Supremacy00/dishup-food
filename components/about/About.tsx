@@ -9,7 +9,7 @@ const About = () => {
     <section className="font-inter mx-auto px-5 pt-8 pb-10 xs:py-16 lg:flex justify-center items-center gap-10 xl:max-w-[1200px] xxl:gap-20 transition-all duration-300 ease-in-out">
       <div className="mx-auto max-w-[500px] xs:max-w-[680px] lg:max-w-full">
         <div className="lg:flex items-center gap-16 xl:gap-28 xxl:gap-36">
-          <div className="grid grid-cols-2 gap-x-5 gap-y-3.5 xxl:gap-5">
+          <div className="grid grid-cols-2 gap-x-5 gap-y-3.5 lg:w-[160%] xxl:gap-5">
             {aboutData.map((item, index) => (
               <div key={index} className="w-full aspect-4/4 overflow-hidden rounded-xl lg:aspect-180/300 xxl:aspect-300/300">
                 <Image
