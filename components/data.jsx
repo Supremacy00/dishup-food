@@ -1,4 +1,29 @@
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+
+
+export const navMenu = [
+  {
+    label: "Home",
+    href: "/",
+    activePath: "/",
+  },
+  {
+    label: "Menu",
+    href: "/dishup/menu",
+    activePath: "/dishup/menu",
+  },
+  {
+    label: "Booking",
+    href: "/dishup/booking",
+    activePath: "/dishup/booking",
+  },
+  {
+    label: "Contact",
+    href: "/dishup/contact",
+    activePath: "/dishup/contact",
+  },
+];
+
 export const heroData = [
   {
     img: "/assets/images/burger.png",
