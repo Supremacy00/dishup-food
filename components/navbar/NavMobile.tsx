@@ -10,9 +10,13 @@ const NavMobile = () => {
   const handleNavOpen = () => {
     setIsOpen(!isOpen)
   }
+
+  const handleClose = () => {
+    setIsOpen(false)
+  }
   return (
     <nav className="font-roboto">
-      <div className="flex justify-between items-center p-5 bg-white border-[1px] border-gray-200 shadow-sm">
+      <div className="flex justify-between items-center p-5 bg-white border-b-[1px] border-gray-200 shadow-sm">
         <div className="flex items-center flex-wrap gap-2">
           <div className="relative bg-amber-400 p-1.5 rounded-[40%]">
             <MdLunchDining className="text-[30px] text-primary" />
@@ -26,7 +30,7 @@ const NavMobile = () => {
           <LuMenuSquare />
         </span>
       </div>
-      <LeftNavbar isOpen={isOpen} setIsOpen={setIsOpen}/>
+      <LeftNavbar isOpen={isOpen} onClose={handleClose}/>
     </nav>
   );
 };

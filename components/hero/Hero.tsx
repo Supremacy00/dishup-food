@@ -95,7 +95,7 @@ const Hero = () => {
             </span>
           </div>
           <div className="ss:flex items-center gap-3 lg:gap-4">
-            <div className="relative w-full h-full aspect-4/3 overflow-hidden rounded-2xl sm:aspect-4/3">
+            <div className="relative w-full h-full aspect-3/2 overflow-hidden rounded-2xl sm:aspect-3/2">
               <Image
                 src="/assets/images/hero6.jpg"
                 alt="Hero Icon"
@@ -108,7 +108,7 @@ const Hero = () => {
               Crispy Omelet Topped with Minced Pork.
               </h3>
             </div>
-            <div className="mt-4 relative w-full h-full aspect-4/3 overflow-hidden rounded-2xl ss:aspect-4/3 ss:mt-0">
+            <div className="mt-4 relative w-full h-full aspect-3/2 overflow-hidden rounded-2xl ss:aspect-3/2 ss:mt-0">
               <Image
                 src="/assets/images/hero2.jpg"
                 alt="Hero Icon"

@@ -20,7 +20,10 @@ const config: Config = {
       },
       colors: {
         'primary': '#393737',
-        secondary: '#646464'
+        secondary: '#646464',
+        custom: {
+          color1: "#FAFAFA"
+        }
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
@@ -28,11 +31,10 @@ const config: Config = {
       aspectRatio: {
         '2/2': '2 / 2',
         '4/2': '4 / 2',
-        '4/3': '3 / 2',
         '4/4': '4 / 4',
         '3/2': '3 / 2',
         '300/270': '300 / 270',
-        '300/300': '100 / 100',
+        '300/300': '300 / 300',
 
       },
       backgroundImage: {
